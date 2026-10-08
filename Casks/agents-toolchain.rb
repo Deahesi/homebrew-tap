@@ -4,21 +4,21 @@ cask "agents-toolchain" do
 
   on_macos do
     on_arm do
-      sha256 "1bd32836987ebc99f46ff428351e12e7df2fb37fe594ad3ebc9692d4b99dcf9d"
+      sha256 "cbbe71e72ed567278c6ac1cd09e86396038381de791853a5a12be503ad0ad133"
       url "https://github.com/Deahesi/agents-toolchain/releases/download/v#{version}/agents-toolchain_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "17cb3335b700387801ca5593f54103ae93c4e4c85770cd363d44120473ad9dec"
+      sha256 "5a36211adf3b4702bd549b82d7daf312cc6f50540fb3652ad4654476905eec6b"
       url "https://github.com/Deahesi/agents-toolchain/releases/download/v#{version}/agents-toolchain_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "2c276b42a9c8a3fd1e23c6c3f3292d412c12436f4a62a6da00796b412371716a"
+      sha256 "65df6c67f1e7c7cad2e97e925b35c668e89a19fc64ce423167b597405da283ad"
       url "https://github.com/Deahesi/agents-toolchain/releases/download/v#{version}/agents-toolchain_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3167657a10daa221367f99feed6ae7e80f918c0fb0ef77a98ea9be3b25ce218e"
+      sha256 "089689038e035992aa4481ce61027edbd64b782dee0a621e0ffd89a646023fef"
       url "https://github.com/Deahesi/agents-toolchain/releases/download/v#{version}/agents-toolchain_#{version}_linux_amd64.tar.gz"
     end
   end
